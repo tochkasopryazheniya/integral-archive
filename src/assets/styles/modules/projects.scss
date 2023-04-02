@@ -1,0 +1,177 @@
+.projects {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.project-card {
+  width: 32%;
+  background-color: rgba(35, 35, 35, 0.80);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-cardImg {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.project-cardWrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.project-cardTitle {
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.project-cardDescription{
+  color: #fff;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.project-cardBtn {
+  width: 100%;
+  display: block;
+  background-color: #d03b35;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 10px 0;
+  transition: background-color .2s linear;
+
+  &:hover {
+    color: #fff;
+    background-color: #d3251f;
+  }
+}
+
+.projectItem {
+  background-color: rgba(35, 35, 35, 0.80);
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.projectItem-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.projectItem-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.projectItem-title {
+  margin-top: 40px;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.projectItem-description {
+  font-size: 18px;
+  margin-bottom: 10px;
+
+  span {
+    font-weight: 600;
+  }
+
+  .thin {
+    font-weight: 400;
+  }
+}
+
+.projectItem-subtitle {
+  font-weight: 700;
+  font-size: 22px;
+  text-align: center;
+}
+
+.projectItem-channels {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projectItem-channel {
+  color: #fff;
+  margin-top: 15px;
+  border-radius: 10px;
+  padding: 10px;
+  transition: all .2s linear;
+  border: 2px solid #d03b35;
+
+
+  &:hover {
+    color: #fff;
+    background-color: #d03b35;
+  }
+}
+
+.projectItem-channelTitle {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+}
+
+@media (max-width: 1399px) {
+
+  .project-cardTitle {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1199px) {
+
+  .project-cardWrapper {
+    flex-direction: column;
+  }
+
+  .project-cardTitle {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 991px) {
+  .project-card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 767px) {
+  .project-card {
+    width: 49%;
+  }
+}
+
+@media (max-width: 550px) {
+  .project-card {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}

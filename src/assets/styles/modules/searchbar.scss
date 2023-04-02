@@ -1,0 +1,35 @@
+.searchbar {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.searchbar-input {
+  color: #fff;
+  background-color: rgba(35, 35, 35, 0.80) !important;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 100%;
+  padding: 10px 30px;
+  border-radius: 20px;
+  font-family: 'Montserrat', sans-serif;
+
+
+  &::placeholder {
+    color: #fff;
+  }
+}
+
+.filter-select {
+  color: #fff;
+  background-color: rgba(35, 35, 35, 0.80) !important;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 100%;
+  min-height: 44px;
+  max-height: 44px;
+  padding: 10px 30px;
+  border-radius: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
